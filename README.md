@@ -58,7 +58,7 @@ The system requires the following:
 #### Code Example for Database Operations:
 ```java
 // Example of connecting to MS Access Database
-Connection conn = DriverManager.getConnection("jdbc:ucanaccess://path_to_database");
+Connection conn = DriverManager.getConnection("jdbc:ucanaccess://path_to_database");<img width="815" height="637" alt="image" src="https://github.com/user-attachments/assets/967d062d-9e50-4902-9142-cd63e3687664" />
 
 // Query to insert user vote
 String insertQuery = "INSERT INTO user_votes (candidate) VALUES (?)";
