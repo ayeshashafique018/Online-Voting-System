@@ -55,12 +55,8 @@ The system requires the following:
 - **Result Display**: The system transparently displays results, including party-wise and leader-wise votes.
 - **Login & Registration**: Voters can log in or register to ensure secure access to the voting platform.
 
-#### Code Example for Database Operations:
-```java
-// Example of connecting to MS Access Database
-Connection conn = DriverManager.getConnection("jdbc:ucanaccess://path_to_database");<img width="815" height="637" alt="image" src="https://github.com/user-attachments/assets/967d062d-9e50-4902-9142-cd63e3687664" />
+<img width="815" height="637" alt="image" src="https://github.com/user-attachments/assets/6b961a71-4733-4d04-9610-1c7c8a12c5fd" />
 
-// Query to insert user vote
 String insertQuery = "INSERT INTO user_votes (candidate) VALUES (?)";
 PreparedStatement pstmt = conn.prepareStatement(insertQuery);
 pstmt.setString(1, selectedCandidate);
